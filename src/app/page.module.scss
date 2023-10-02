@@ -1,0 +1,69 @@
+@mixin breakpoint {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+.main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  p {
+    line-height: 1.6667;
+    margin-bottom: 2rem;
+  }
+
+  ul {
+    margin-bottom: 2rem;
+    li {
+      line-height: 1.6667;
+      color: var(--text-tertiary);
+    }
+    &:first-child li {
+      color: var(--text-secondary);
+    }
+    &:last-child li {
+      color: var(--text-blue);
+    }
+  }
+}
+
+.heading {
+  margin-bottom: 50px;
+  h1,h2,h3 {
+    font-size: 1.18rem;
+    @include breakpoint {
+      font-size: 1.6667rem;
+    }
+  }
+  h3 {
+    color: var(--text-secondary);
+  }
+  &.nomargin {
+    margin-bottom: 0;
+  }
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  @include breakpoint {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  ul {
+    margin: 0;
+  }
+}
+
+.screenshots {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  margin-bottom: 2rem;
+  @include breakpoint {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

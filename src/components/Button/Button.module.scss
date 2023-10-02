@@ -1,0 +1,11 @@
+a.btn {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  color: var(--color-secondary);
+  background: var(--color-white);
+  border-radius: 100px;
+  font-weight: bold;
+}

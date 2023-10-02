@@ -1,0 +1,41 @@
+@import './reset';
+
+:root {
+  --brand-light: #E7F7F7;
+  --brand-dark: #315460;
+  --brand-accent: #428396;
+
+  --site-bg: var(--brand-light);
+
+  --color-primary: #315460;
+  --color-secondary: #428396;
+  --color-tertiary: #3091B5;
+  --color-quartenary: #9AC8D5;
+  --color-quinary: #D6EFEF;
+  --color-white: #FDFDFD;
+
+  --text-primary: var(--color-primary);
+  --text-secondary: var(--color-secondary);
+  --text-tertiary: #3091B5;
+  --text-blue: #3054B5;
+
+  --link-blue: #1952D5
+}
+
+html, body {
+  font-family: monospace;
+  font-size: 18px;
+  background: var(--site-bg);
+  color: var(--text-primary);
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3 {
+  font-family: var(--font-poppins);
+}
+
+a, a:visited {
+  color: var(--link-blue);
+}

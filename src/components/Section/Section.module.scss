@@ -1,0 +1,15 @@
+.section {
+  display: block;
+  position: relative;
+  padding: 110px 0;
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background: var(--color-quartenary);
+  }
+}
