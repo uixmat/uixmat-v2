@@ -1,3 +1,9 @@
+@mixin breakpoint {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
 .screenshot {
   width: 100%;
   height: auto;
@@ -16,7 +22,9 @@
 
   &.full {
     aspect-ratio: 1380/770;
-    grid-column: span 2;
+    @include breakpoint {
+      grid-column: span 2;
+    }
     .inner {
       aspect-ratio: 1380/943;
     }
