@@ -8,8 +8,17 @@
   .inner {
     position: absolute;
     top: -60px;
-    left: -60px;
-    width: calc(100% + 120px);
-    height: calc(100% + 120px);
+    left: 0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 700/800
+  }
+
+  &.full {
+    aspect-ratio: 1380/770;
+    grid-column: span 2;
+    .inner {
+      aspect-ratio: 1380/943;
+    }
   }
 }

@@ -27,6 +27,38 @@ export default function Home() {
 
       <Section>
         <div className={styles.heading}>
+          <h2>Recently i built something.</h2>
+          <h3>Because i was made redundant.</h3>
+        </div>
+        <p>
+          It&apos;s called{" "}
+          <a href="https://nextjobs.dev" rel="follow" target="_blank">
+            nextjobs.dev
+          </a>{" "}
+          - I made it during September &apos;03 as a side project after losing
+          my previous job. I wanted to make a full-stack web application that
+          could both showcase my design and development ability while learning
+          some more. It uses my current flavour mentioned below and utilises a
+          bunch of Next 13&apos;s awesome new features like edge functions
+          together with Prisma&apos;s new Accelerate product.{" "}
+        </p>
+
+        <p>
+          While i&apos;m searching for a job i&apos;d be happy to give employers
+          a tour of the repo!
+        </p>
+
+        <div className={styles.screenshots}>
+          <Screenshot imgSrc="/nextjobs-screenshot-0.png" full />
+          <Screenshot imgSrc="/nextjobs-screenshot-1.png" />
+          <Screenshot imgSrc="/nextjobs-screenshot-2.png" />
+        </div>
+
+        <Button href="https://nextjobs.dev">Visit nextjobs.dev</Button>
+      </Section>
+
+      <Section>
+        <div className={styles.heading}>
           <h2>My current flavour.</h2>
           <h3>And some other stuff i like.</h3>
         </div>
@@ -57,37 +89,6 @@ export default function Home() {
             <li>after effects</li>
           </ul>
         </div>
-      </Section>
-
-      <Section>
-        <div className={styles.heading}>
-          <h2>Recently i built something.</h2>
-          <h3>Because i was made redundant.</h3>
-        </div>
-        <p>
-          It&apos;s called{" "}
-          <a href="https://nextjobs.dev" rel="follow" target="_blank">
-            nextjobs.dev
-          </a>{" "}
-          - I made it during September &apos;03 as a side project after losing
-          my previous job. I wanted to make a full-stack web application that
-          could both showcase my design and development ability while learning
-          some more. It uses my current flavour mentioned above and utilises a
-          bunch of Next 13&apos;s awesome new features like edge functions
-          together with Prisma&apos;s new Accelerate product.{" "}
-        </p>
-
-        <p>
-          While i&apos;m searching for a job i&apos;d be happy to give employers
-          a tour of the repo!
-        </p>
-
-        <div className={styles.screenshots}>
-          <Screenshot imgSrc="/nextjobs-screenshot-1.jpg" />
-          <Screenshot imgSrc="/nextjobs-screenshot-2.jpg" />
-        </div>
-
-        <Button href="https://nextjobs.dev">Visit nextjobs.dev</Button>
       </Section>
 
       <Section>

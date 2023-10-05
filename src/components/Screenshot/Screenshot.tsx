@@ -2,13 +2,15 @@
 import { useEffect, useRef } from "react";
 import { useScroll } from "framer-motion";
 import Image from "next/image";
+import clsx from "clsx";
 import styles from "./Screenshot.module.scss";
 
 interface Props {
   imgSrc: string;
+  full?: boolean;
 }
 
-export default function Screenshot({ imgSrc }: Props) {
+export default function Screenshot({ imgSrc, full }: Props) {
   const innerRef = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll({
     target: innerRef,
@@ -35,8 +37,12 @@ export default function Screenshot({ imgSrc }: Props) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrollYProgress]);
+
+  const screenshotClass = clsx(styles.screenshot, {
+    [styles.full]: full === true,
+  });
   return (
-    <div className={styles.screenshot}>
+    <div className={screenshotClass}>
       <div className={styles.inner} ref={innerRef}>
         <Image src={imgSrc} alt="Screenshot" fill />
       </div>
