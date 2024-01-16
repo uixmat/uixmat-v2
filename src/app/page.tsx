@@ -70,6 +70,8 @@ export default function Home() {
             <li>scss</li>
             <li>prisma</li>
             <li>mongodb</li>
+            <li>framer motion</li>
+            <li>storybook</li>
           </ul>
           <ul>
             <li>supabase</li>
@@ -78,8 +80,6 @@ export default function Home() {
             <li>radix ui</li>
             <li>shadcn</li>
             <li>formik</li>
-            <li>storybook</li>
-            <li>framer motion</li>
           </ul>
           <ul>
             <li>figma</li>
@@ -109,7 +109,7 @@ export default function Home() {
             <CodePen author="uixmat" slug="EZvEPp" />
           </li>
           <li>
-            <CodePen author="uixmat" slug="nEmdrx" />
+            <CodePen author="uixmat" slug="ExePjZv" />
           </li>
         </ul>
         <p>See more on CodePen...</p>
