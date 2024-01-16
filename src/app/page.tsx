@@ -5,6 +5,7 @@ import Circle from "@/components/Circle/Circle";
 import Screenshot from "@/components/Screenshot/Screenshot";
 import Brands from "@/components/Brands/Brands";
 import Button from "@/components/Button/Button";
+import CodePen from "@/components/CodePen/CodePen";
 
 export default function Home() {
   return (
@@ -94,6 +95,31 @@ export default function Home() {
 
       <Section>
         <div className={styles.heading}>
+          <h2>Some fun stuff.</h2>
+          <h3>I like to create on CodePen</h3>
+        </div>
+        <ul className={styles.pens}>
+          <li>
+            <CodePen author="uixmat" slug="XWovXvg" />
+          </li>
+          <li>
+            <CodePen author="uixmat" slug="rNodjee" />
+          </li>
+          <li>
+            <CodePen author="uixmat" slug="EZvEPp" />
+          </li>
+          <li>
+            <CodePen author="uixmat" slug="nEmdrx" />
+          </li>
+        </ul>
+        <p>See more on CodePen...</p>
+        <Button href="https://codepen.io/uixmat" external>
+          CodePen
+        </Button>
+      </Section>
+
+      <Section>
+        <div className={styles.heading}>
           <h2>I&apos;ve worked with some amazing brands.</h2>
           <h3>And with amazing people.</h3>
         </div>
@@ -131,6 +157,15 @@ export default function Home() {
               rel="nofollow noreferrer"
             >
               View my past on LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://codepen.io/uixmat"
+              target="_blank"
+              rel="nofollow noreferrer"
+            >
+              Create with me on CodePen
             </a>
           </li>
         </ul>

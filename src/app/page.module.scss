@@ -58,6 +58,15 @@
   }
 }
 
+.pens {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+  @include breakpoint {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .screenshots {
   display: grid;
   gap: 1rem;
