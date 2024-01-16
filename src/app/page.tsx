@@ -74,10 +74,11 @@ export default function Home() {
             <li>supabase</li>
             <li>stripe</li>
             <li>lemonsqueezy</li>
-            <li>radix</li>
+            <li>radix ui</li>
             <li>shadcn</li>
             <li>formik</li>
             <li>storybook</li>
+            <li>framer motion</li>
           </ul>
           <ul>
             <li>figma</li>
