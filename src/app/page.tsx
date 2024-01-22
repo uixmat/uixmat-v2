@@ -78,7 +78,7 @@ export default function Home() {
             <li>stripe</li>
             <li>lemonsqueezy</li>
             <li>radix ui</li>
-            <li>shadcn</li>
+            <li>shadcn/ui</li>
             <li>formik</li>
           </ul>
           <ul>
@@ -143,7 +143,7 @@ export default function Home() {
           </li>
           <li>
             <a
-              href="https://github.com/mattsince87"
+              href="https://github.com/uixmat"
               target="_blank"
               rel="nofollow noreferrer"
             >
