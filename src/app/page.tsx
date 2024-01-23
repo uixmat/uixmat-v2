@@ -40,8 +40,8 @@ export default function Home() {
           . Built from the ground up with Next.js, NextAuth, Prisma, Supabase,
           Shadcn/ui and Tailwind it is already packed full of cool features.
           Firestarta has a full OAuth authentication flow with custom signin
-          pages, server components and user accounts. I'm building it n public
-          and you can follow regular updates both on{" "}
+          pages, server components and user accounts. I&apos;m building it n
+          public and you can follow regular updates both on{" "}
           <a href="https://github.com/uixmat/firestarta" target="_blank">
             GitHub
           </a>{" "}
