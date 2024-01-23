@@ -28,8 +28,39 @@ export default function Home() {
 
       <Section>
         <div className={styles.heading}>
+          <h2>I&apos;m currently building</h2>
+          <h3>An open-source Next.js boilerplate</h3>
+        </div>
+        <p>
+          I&apos;m currently building in public an open-source Next.js
+          boilerplate/SaaS starter kit called{" "}
+          <a href="https://firestarta.dev" target="_blank">
+            firestarta.dev
+          </a>
+          . Built from the ground up with Next.js, NextAuth, Prisma, Supabase,
+          Shadcn/ui and Tailwind it is already packed full of cool features.
+          Firestarta has a full OAuth authentication flow with custom signin
+          pages, server components and user accounts. I'm building it n public
+          and you can follow regular updates both on{" "}
+          <a href="https://github.com/uixmat/firestarta" target="_blank">
+            GitHub
+          </a>{" "}
+          and <a href="https://twitter.com/uixmat">Twitter</a>.
+        </p>
+
+        <div className={styles.screenshots}>
+          <Screenshot imgSrc="/firestarta-0.png" full />
+          <Screenshot imgSrc="/firestarta-1.png" />
+          <Screenshot imgSrc="/firestarta-2.png" />
+        </div>
+
+        <Button href="https://firestarta.dev">Visit firestarta.dev</Button>
+      </Section>
+
+      <Section>
+        <div className={styles.heading}>
           <h2>Recently i built something.</h2>
-          <h3>Because i was made redundant.</h3>
+          <h3>So i could improve my skills</h3>
         </div>
         <p>
           It&apos;s called{" "}
