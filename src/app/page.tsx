@@ -101,16 +101,19 @@ export default function Home() {
             <li>scss</li>
             <li>prisma</li>
             <li>mongodb</li>
+            <li>supabase</li>
             <li>framer motion</li>
             <li>storybook</li>
           </ul>
           <ul>
-            <li>supabase</li>
             <li>stripe</li>
             <li>lemonsqueezy</li>
             <li>radix ui</li>
             <li>shadcn/ui</li>
-            <li>formik</li>
+            <li>tailwind css</li>
+            <li>tauri</li>
+            <li>electron</li>
+            <li>resend</li>
           </ul>
           <ul>
             <li>figma</li>
