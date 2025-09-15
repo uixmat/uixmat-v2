@@ -22,18 +22,19 @@ export default function Home() {
         </div>
         <div className={`${styles.nomargin}`}>
           <p>
-            When i'm not working on my own projects - private or OSS; you can
-            find me travelling at high-speeds down a mountain. I'm an avid
-            enduro mtb rider and back country snowboarder. I value my time away
-            from the computer and semi-disconnected from the outside world. I
-            spend time with my wife, dog and close friends as much as possible.
+            When i&apos;m not working on my own projects - private or OSS; you
+            can find me travelling at high-speeds down a mountain. I&apos;m an
+            avid enduro mtb rider and back country snowboarder. I value my time
+            away from the computer and semi-disconnected from the outside world.
+            I spend time with my wife, dog and close friends as much as
+            possible.
           </p>
 
           <p>
-            Coming from the MMA side of design and web development; I've honed
-            my skillsets to be able to deliver high-quality work. I thoiroughly
-            believe good user experience, beautiful user interfaces and
-            maintainable code all go hand in hand.
+            Coming from the MMA side of design and web development; I&apos;ve
+            honed my skillsets to be able to deliver high-quality work. I
+            thoiroughly believe good user experience, beautiful user interfaces
+            and maintainable code all go hand in hand.
           </p>
 
           <p>
