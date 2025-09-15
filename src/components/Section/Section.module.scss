@@ -3,13 +3,19 @@
   position: relative;
   padding: 110px 0;
   &:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 100%;
     left: 0;
     width: 50%;
     height: 1px;
-    background: var(--color-quartenary);
+    background: transparent;
+    border-top: 1px dashed var(--color-quartenary);
+  }
+  &.noborder {
+    &:after {
+      display: none;
+    }
   }
 }

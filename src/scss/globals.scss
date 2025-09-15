@@ -1,28 +1,29 @@
-@import './reset';
+@import "./reset";
 
 :root {
-  --brand-light: #E7F7F7;
-  --brand-dark: #315460;
-  --brand-accent: #428396;
+  --brand-light: #1f0322;
+  --brand-dark: #752a67;
+  --brand-accent: #8dc134;
 
   --site-bg: var(--brand-light);
 
-  --color-primary: #315460;
-  --color-secondary: #428396;
-  --color-tertiary: #3091B5;
-  --color-quartenary: #9AC8D5;
-  --color-quinary: #D6EFEF;
-  --color-white: #FDFDFD;
+  --color-primary: #a6c33f;
+  --color-secondary: #2dbb82;
+  --color-tertiary: #46945f;
+  --color-quartenary: #6cf2ce;
+  --color-quinary: #d6efef;
+  --color-white: #fdfdfd;
 
   --text-primary: var(--color-primary);
   --text-secondary: var(--color-secondary);
-  --text-tertiary: #3091B5;
-  --text-blue: #3054B5;
+  --text-tertiary: #bd81de;
+  --text-blue: #9495ea;
 
-  --link-blue: #1952D5
+  --link-blue: #6185e8;
 }
 
-html, body {
+html,
+body {
   font-family: monospace;
   font-size: 18px;
   background: var(--site-bg);
@@ -32,10 +33,18 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1,h2,h3 {
+small {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+h1,
+h2,
+h3 {
   font-family: var(--font-poppins);
 }
 
-a, a:visited {
+a,
+a:visited {
   color: var(--link-blue);
 }
