@@ -31,10 +31,13 @@ export default function Home() {
           </p>
 
           <p>
-            Coming from the MMA side of design and web development; I&apos;ve
-            honed my skillsets to be able to deliver high-quality work. I
-            thoiroughly believe good user experience, beautiful user interfaces
-            and maintainable code all go hand in hand.
+            Coming from the mixed martial arts of design, web development, and
+            motion, I&apos;ve uniquely fine-tuned my skillset to strike the
+            perfect balance between user experience, design, and value. To me,
+            good UX means more than functionality—it&apos;s about creating
+            beautiful, engaging interfaces that not only look great but also
+            deliver on their intended purpose, removing decision fatigue and
+            making the user&apos;s life easier.
           </p>
 
           <p>
