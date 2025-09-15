@@ -8,7 +8,9 @@ interface SectionProps {
 
 export default function Section({ children, border }: SectionProps) {
   return (
-    <section className={clsx(styles.section, !border && styles.noborder)}>
+    <section
+      className={clsx(styles.section, border === false && styles.noborder)}
+    >
       {children}
     </section>
   );

@@ -9,13 +9,21 @@
     top: 100%;
     left: 0;
     width: 50%;
-    height: 1px;
+    height: 2px;
     background: transparent;
     border-top: 1px dashed var(--color-quartenary);
   }
   &.noborder {
     &:after {
       display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 40px 0;
+
+    &:after {
+      width: 100%;
     }
   }
 }
